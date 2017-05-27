@@ -1,0 +1,36 @@
+﻿生成启动时间为 2012-12-29 3:12:41。
+     1>项目“E:\F\nb\课程设计\系数多项式\系数多项式\系数多项式.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“.\Release\系数多项式.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\\" /Fd".\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt fun.cpp linklist.cpp multiequ.cpp multiequ_main.cpp
+         fun.cpp
+         linklist.cpp
+         multiequ.cpp
+     1>multiequ.cpp(11): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(304) : 参见“scanf”的声明
+     1>multiequ.cpp(14): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(304) : 参见“scanf”的声明
+     1>multiequ.cpp(189): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(304) : 参见“scanf”的声明
+         multiequ_main.cpp
+     1>multiequ_main.cpp(28): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(277) : 参见“gets”的声明
+         正在生成代码...
+     1>e:\f\nb\课程设计\系数多项式\系数多项式\multiequ_main.cpp(54): warning C4700: 使用了未初始化的局部变量“x0”
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\系数多项式.exe" /INCREMENTAL:NO /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Release\系数多项式.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"E:\F\nb\课程设计\系数多项式\系数多项式\Release\系数多项式.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\系数多项式.lib" /MACHINE:X86 .\Release\fun.obj
+         .\Release\linklist.obj
+         .\Release\multiequ.obj
+         .\Release\multiequ_main.obj
+         系数多项式.vcxproj -> E:\F\nb\课程设计\系数多项式\系数多项式\.\Release\系数多项式.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\Release\系数多项式.exe;#1" /manifest ".\Release\系数多项式.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“.\Release\系数多项式.unsuccessfulbuild”。
+         正在对“.\Release\系数多项式.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\F\nb\课程设计\系数多项式\系数多项式\系数多项式.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.98
