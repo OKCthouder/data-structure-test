@@ -1,0 +1,5 @@
+﻿  Test.cpp
+c:\users\asus\desktop\project3\project3\源代码.h(85): warning C4715: “AddPoly”: 不是所有的控件路径都返回值
+c:\users\asus\desktop\project3\project3\源代码.h(119): warning C4715: “SubPoly”: 不是所有的控件路径都返回值
+  Project3.vcxproj -> C:\Users\ASUS\Desktop\Project3\Debug\Project3.exe
+  Project3.vcxproj -> C:\Users\ASUS\Desktop\Project3\Debug\Project3.pdb (Partial PDB)
