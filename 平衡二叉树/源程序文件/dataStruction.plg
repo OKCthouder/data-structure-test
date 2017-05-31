@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dataStruction - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ljc\AppData\Local\Temp\RSP5796.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/dataStruction.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\ljc\Desktop\数据结构\计科9班\3113006172-计科9班-李建昌\课程设计(平衡二叉树的演示)\源程序文件\dataStruction.cpp"
+]
+Creating command line "cl.exe @C:\Users\ljc\AppData\Local\Temp\RSP5796.tmp" 
+Creating temporary file "C:\Users\ljc\AppData\Local\Temp\RSP5797.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/dataStruction.pdb" /debug /machine:I386 /out:"Debug/dataStruction.exe" /pdbtype:sept 
+".\Debug\dataStruction.obj"
+]
+Creating command line "link.exe @C:\Users\ljc\AppData\Local\Temp\RSP5797.tmp"
+<h3>Output Window</h3>
+Compiling...
+dataStruction.cpp
+c:\users\ljc\desktop\数据结构\计科9班\3113006172-计科9班-李建昌\课程设计(平衡二叉树的演示)\源程序文件\avl_head.h(81) : error C4716: 'InitStack_LS' : must return a value
+c:\users\ljc\desktop\数据结构\计科9班\3113006172-计科9班-李建昌\课程设计(平衡二叉树的演示)\源程序文件\avl_head.h(394) : warning C4700: local variable 'k' used without having been initialized
+c:\users\ljc\desktop\数据结构\计科9班\3113006172-计科9班-李建昌\课程设计(平衡二叉树的演示)\源程序文件\avl_head.h(436) : warning C4715: 'PreOrder_RecTraverse' : not all control paths return a value
+c:\users\ljc\desktop\数据结构\计科9班\3113006172-计科9班-李建昌\课程设计(平衡二叉树的演示)\源程序文件\avl_head.h(445) : error C4716: 'InOrder_RecTraverse' : must return a value
+c:\users\ljc\desktop\数据结构\计科9班\3113006172-计科9班-李建昌\课程设计(平衡二叉树的演示)\源程序文件\avl_head.h(454) : error C4716: 'LastOrder_RecTraverse' : must return a value
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+dataStruction.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
